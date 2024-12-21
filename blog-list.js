@@ -47,7 +47,7 @@ const getBlogList = async () => {
                     </td>
                     <td class="center">
                       <a
-                        href="blog-edit.html"
+                        href="blog-edit.html?aid=${item._id}"
                         type="button"
                         class="btn btn-danger"
                         >编辑</a
